@@ -2,7 +2,7 @@
 
 A snapshot of so far!
 
-> Yes this is an AngularJs Project, `common if it works - dont touch it 😅`
+> Yes this is an AngularJs Project, `c'mon if it works - dont touch it 😅`
 
 ## Make your own
 
