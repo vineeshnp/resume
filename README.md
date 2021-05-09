@@ -2,6 +2,8 @@
 
 A snapshot of so far!
 
+[https://vineeshnp.com/resume](https://vineeshnp.com/resume)
+
 > Yes this is an AngularJs Project, `c'mon if it works - dont touch it 😅`
 
 ## Make your own
