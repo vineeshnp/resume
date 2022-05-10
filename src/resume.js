@@ -105,6 +105,7 @@ angular
         <i class="devicon-{{value}}-plain" title={{value}}></i>
       </span>
     </h5>
+    <br>
     <div class="category-location" ng-if="r.location">
       {{r.location}}
     </div>
