@@ -90,7 +90,8 @@ angular
       title: "@",
       subtitle: "@",
       homepage: "@",
-      languages: "="
+      languages: "=",
+      location: "@",
     },
     transclude: true,
     template: `<div class="category">
@@ -104,6 +105,9 @@ angular
         <i class="devicon-{{value}}-plain" title={{value}}></i>
       </span>
     </h5>
+    <div class="category-location" ng-if="r.location">
+      {{r.location}}
+    </div>
     <ul class="category-bullets" ng-transclude></ul>
   </div>`,
   });
