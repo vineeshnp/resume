@@ -7,11 +7,11 @@ a{
 }
 
 .category a{
-  color: #283593 !important;
+  color: #1A237E !important
 }
 
-a:hover{
-  color: #3F51B5 !important;
+a:hover a:visited{
+  color: #1A237E !important;
 }
 
 .resume {
