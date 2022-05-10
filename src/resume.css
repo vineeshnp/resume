@@ -106,6 +106,15 @@ category:last-of-type category-item:last-of-type .category {
   color:#1a1717b9
 }
 
+.category-location {
+  right: 0px;
+  top: 5px;
+  float: right;
+  position: relative;
+  font-size: 9px;
+  color:#1a1717b9
+}
+
 a.page-subhead {
   color: initial;
   text-decoration: none;
