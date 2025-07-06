@@ -35,8 +35,6 @@ angular
       <a ng-if="r.website" class="md-subhead page-subhead" ng-href="https://{{r.website}}" target="_blank">
         <i class="fa fa-lg fa-code"></i>{{r.website}}
       </a>
-      
-      <br>
       <a ng-if="r.linkedin" class="md-subhead page-subhead" ng-href="https://linkedin.com/in/{{r.linkedin}}" target="_blank">
         <i class="fa fa-lg fa-linkedin-square"></i>{{r.linkedin}}
       </a>

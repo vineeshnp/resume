@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
@@ -48,66 +49,56 @@
             </resume-column>
             <resume-column flex="80">
                 <category name="Professional Experience">
-                    <category-item title="Senior Engineer" subtitle="Mercedes-Benz (Mar-22 to Present)" homepage="https://www.mercedes-benz.com/" location="Stuttgart, Germany">
-                        <li>Speech Technology @ Mercedes Benz Research.</li>
-                        <li>Working on #heymercedes topics, which is the Mercedes-Benz in car voice assistant.</li>
-                        <li>Part of team developing Mercedes Benz Operating System(MB.OS). </li>
+                    <category-item title="Senior Engineer" subtitle="Mercedes-Benz (Mar 2022 - Present)" homepage="https://www.mercedes-benz.com/" location="Stuttgart, Germany">
+                        <li>Core contributor to the development of the "Hey Mercedes" voice assistant platform.</li>
+                        <li>Hands-on involvement across multiple components with deep system-level understanding.</li>
+                        <li>Delivered and maintained both frontend (app) and backend services used by millions of users.</li>
+                        <li>Member of the team building the Mercedes-Benz Operating System (MBOS).</li>
                     </category-item>
-                    <category-item title="Software Developer" subtitle="SAP (Jul-21 to Jan-22)" homepage="https://www.sap.com/" location="Bangalore, India">
-                        <li>Contributor to SAP CBC Project.</li>
-                        <li>CBC configure business processes that span across different SAP products from one central place.</li>
-                        <li>NodeJS, ReactJS, TypeScript.</li>
+                    <category-item title="Software Developer" subtitle="SAP (Jul 2021 - Jan 2022)" homepage="https://www.sap.com/" location="Bangalore, India">
+                        <li>Contributor to the SAP Central Business Configuration (CBC) project.</li>
                     </category-item>
-                    <category-item title="Senior Consultant" subtitle="Mercedes-Benz R&D India (Sep-18 to Jul-21)" homepage="https://www.mbrdi.co.in/" location="Bangalore, India">
-                        <li>Leading `Team` responsible for development of advanced drawing tools.</li>
-                        <li>Designing architecture of each modules.</li>
-                        <li>ReactJS, NodeJS, Python and Java.</li>
+                    <category-item title="Senior Consultant" subtitle="Mercedes-Benz R&D India (Sep 2018 - Jul 2021)" homepage="https://www.mbrdi.co.in/" location="Bangalore, India">
+                        <li>Led a team responsible for developing advanced engineering drawing tools for Daimler use cases.</li>
                     </category-item>
-                    <category-item title="Software Engineer" subtitle="Datamatics Digital (Apr-16 to Sep-18)" homepage="https://www.datamatics.com/digital/digital-experience/" location="Bangalore, India">
-                        <li>Backend Developer.</li>
-                        <li>Architected and deployed scalable backend infrastructure.</li>
-                        <li>NodeJS, Python, Flask, ExpressJS, Web Sockets and real time systems.</li>
+                    <category-item title="Software Engineer" subtitle="Datamatics Digital (Apr 2016 - Sep 2018)" homepage="https://www.datamatics.com/digital/digital-experience/" location="Bangalore, India">
+                        <li>Lead developer for a Node.js-based game backend.</li>
+                    </category-item>
+                    <category-item title="Founder / Engineer" subtitle="FragmentYard (Jun 2013 - Apr 2016)" location="Remote, India" homepage="https://vineeshnp.com/2024-12-26-the-first-25-dollar-part-1/">
+                        <li>Built a lyrics search app for Android, independently handling development and publishing.</li>
+                        <li>Achieved 100K+ downloads on Google Play Store between 2013 and 2016.</li>
                     </category-item>
                 </category>
-                <category name="Projects">
-                    <category-item title="Speech Development Platform" subtitle="Senior Engineer" languages="['vuejs', 'nodejs', 'mongodb']">
-                        <li>SDP helps in modelling speech domains for #heymercedes.</li>
-                        <li>New voice skills can be developed with the platform.</li>
-                        <li>Skills are the abilities the voice assistant can perform. eg: "Get weather at my location"</li>
+                <category name="Notable Projects">
+
+                    <category-item title="Hey Mercedes Voice Assistant" subtitle="" languages="['linux']">
+                        <li>Core team member behind the in-car voice assistant, powering natural interactions with the "Hey Mercedes" platform.</li>
+                        <li>Integrated hotword detection, automatic speech recognition (ASR), and natural language understanding (NLU) into production systems.</li>
+                        <!-- <li>Contributed across the entire voice pipeline — from audio signal processing to intent fulfillment — with deep architectural insight.</li> -->
                     </category-item>
-                    <category-item title="Advanced drawing tools" subtitle="Team Lead" languages="['javascript', 'react', 'java', 'jenkins']">
-                        <li>'Advanced drawing tools' are used to create, share and archive engineering drawings.</li>
-                        <li>Re architected front end application which resulted in <b>70%</b> better performance.</li>
-                        <li>Responsible from planning till deployment of deliverables.</li>
+                
+                    <category-item title="Cloud Services for Voice Assistant" subtitle="" languages="['go', 'azure', 'kubernetes', 'rest', 'observability']">
+                        <li>Developed and scaled cloud services supporting voice-based use cases for millions of connected vehicles.</li>
+                        <li>Integrated multiple microservices to orchestrate contextual dialog fulfillment across domains.</li>
                     </category-item>
-                    <category-item title="Flask admin portal" subtitle="Lead Developer" languages="['python', 'flask', 'react', 'mysql', 'docker']">
-                        <li>The application is an admin portal developed based on specific requirement from client.</li>
-                        <li>Role included, architecture design, business logic development, db design and project deployment.</li>
-                        <li>Python, Flask and MySql.</li>
+                
+                    <category-item title="Hey Mercedes Info App" subtitle="" languages="['go', 'azure', 'kubernetes', 'linux']">
+                        <li>Developed features for an in-car support app providing contextual help and system information for the Hey Mercedes voice assistant.</li>
+                        <li>Built backend APIs handling millions of requests per day across production vehicle fleets.</li>
+                        <!-- <li>Maintained cloud-hosted backend services that serve as the primary interface for help-related queries from the infotainment system.</li> -->
                     </category-item>
-                    <category-item title="Real time multiplayer game" subtitle="Backend lead" languages="['nodejs', 'javascript', 'mongodb', 'amazonwebservices', 'docker']">
-                        <li>Real time multiplayer card game implemented using NodeJS and Websocket.</li>
-                        <li>Responsibility includes from architecting to deployment.</li>
-                        <li>In-memory db and NoSql db were used for data persistance.</li>
-                    </category-item>
-                    <category-item title="Logram" subtitle="Author" languages="['javascript', 'nodejs', 'express', 'github']">
-                        <li>Log streamer developed from scratch and open sourced.</li>
-                        <li>Works as a library or as stand alone project to stream logs in real time, from server to browser.</li>
-                        <li><a href="https://github.com/vineeshnp/logram" target="_blank">https://github.com/vineeshnp/logram</a>[Archived]</li>
+                
+                    <category-item title="Other Selected Projects" languages="['react', 'nodejs', 'android', 'aws', 'java', 'kotlin']">
+                        <li><strong>Advanced Drawing Tools:</strong> Led development of drawing tools for engineering workflows. Re-architected frontend, improving performance by 70%.</li>
+                        <li><strong>Real-Time Multiplayer Game:</strong> Built scalable backend with Node.js & WebSocket; used Redis and MongoDB for low-latency game state.</li>
+                        <li><strong>Lyrics Engine:</strong> Created Android lyrics search app with offline support. Reached 100K+ installs on Google Play Store.</li>
                     </category-item>
                 </category>
                 <category name="Skills">
-                    <category-item title="Development">
-                        <li><strong>Real time app development</strong> Designed and Implemented real time backend using websocket.</li>
-                        <li><strong>REST API Development</strong> Hands on experience with REST api development</li>
-                        <li><strong>Speaker</strong> Have delivered tech talks at meetups and institutions.</li>
-                        <li><strong>DevOps</strong> Docker and Docker swarms, AWS and GCP.</li>
-                        <li><strong>VCS</strong> Strong understanding on git.</li>
-                    </category-item>
-                    <category-item title="Technologies">
-                        <li><strong>Programming</strong> Javascript \ Python \ Java \ Golang(Learning) \ Rust(Learning) </li>
-                        <li><strong>DevOps</strong> Docker \ Jenkins \ Sonarqube \ JFrog \ AWS/GCP </li>
-                        <li><strong>Databases</strong> Relational \ Non-Relational \ In-Memory</li>
+                    <category-item title="Expertise">
+                        <li><strong>Voice Assistants</strong> — Deep architectural and hands-on experience in building large-scale voice assistant platforms, including NLU, ASR, and client-server orchestration.</li>
+                        <li><strong>Real-Time Systems</strong> — Designed and deployed scalable real-time backends using WebSockets and event-driven patterns.</li>
+                        <li><strong>API Design</strong> — Extensive experience in designing and implementing robust RESTful APIs following best practices (OpenAPI, versioning, security).</li>
                     </category-item>
                 </category>
             </resume-column>
